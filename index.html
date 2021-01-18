@@ -1,24 +1,41 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+  <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+  <!-- Materialize.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- CSS Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 <body>
   <div id ="linea"></div><!--linia  de arriba-->
   <div   id ="header">
   	 <div id ="centro1">
+
   	 <div id ="logo"> 
-      <h2> MADERAS EXPRESS </h2>
+      <h6> MADERAS EXPRESS </h6>
       <p> Lo mejor de la madera  </p>
     </div>
-    <div id = "menu">
-    	<ul>
-    		<ul><a href=""><b>inicio</b></a><li><!--linia para menu-->
-    	    <ul><a href=""><b>Cursos</b></a><li>
-    	    <ul><a href=""><b>Productos</b></a><li>
-    	    <ul><a href=""><b>Promociones</b></a><li>
-    		</ul>
+    <div>
+      
+  <ul id="menu">
+ <li><a href="index.html"><b>inicio</b></a></li>
+ <li><a href="Cursos.html"><b>Cursos</b></a></li>
+ <li><a href="Cursos.html"><b>Catalogos</b></a>
+  <ul>
+    <li><a href=""><b> </b></a></li>
+    <li><a href="catalogo.html"><b>Promociones</b></a></li>
+    <li><a href="catalogoProducto.html"><b>Productos</b></a></li>
+  </ul>
+ </li>
+
+ <li><a href="Cursos.html"><b>Cursos</b></a></li>
+</ul>
+</div>
        </div>
     </div> 
   </div>
@@ -30,7 +47,76 @@
        	          <button class="boton">Mas informacion aqui</button>
        	      </div>
        	  </div id="derecha">
-       	  <img src="imag/MaderasE.JPEG"class="imag">
+       	  <img src="img/MaderasE.JPEG"class="img">
        	</div>
+
+ <div id = "body">
+         <div class="container">
+        <div class="row">
+            <div class="col s12">
+
+                <h1 class="center-align titulo">***CURSOS***</h1>
+
+                <div class="carousel center-align">
+                    <div class="carousel-item">
+                       <h4><a href="Cursos.html"><b>Click aqui</b></a><h4>
+                        <img src="img/cb.jpeg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h4><a href="Cursos.html"><b>Click aqui</b></a></h4>    
+                        <img src="./img/ci.jpg" width="400" alt="">
+                    </div>
+                    
+                    <div class="carousel-item"><h4>
+                      <a href=""><b>No Disponible</b></a><h4>
+                      <img src="./img/cp.jpeg" width="400" alt="">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div   id ="headers">
+    <div id ="centro1">
+    <div class="col s12">
+    <h1 class="center-align titulo">***Catalogo de Venta***</h1>
+
+    <div id ="logo">
+    </div>
+    </div> 
+  </div>
+ <div > 
+         <div class="carousel center-align">
+                    <div class="carousel-item">
+                      <h4><a href=""><b>No Disponible</b></a><h4>
+                        <img src="img/Promocion.jpeg" alt="">
+                    </div>
+  
+                    <div class="carousel-item">
+
+                        <h4><a href="Cursos.html"><b>Click aqui</b></a></h4>       
+                        <img src="./img/Producto.jpeg" width="400" alt="">
+                    </div>
+                    
+                    <div class="carousel-item">
+
+                        <h4><a href="Cursos.html"><b>Click aqui</b></a></h4>            
+                        <img src="./img/Premium.jpeg" width="400" alt="">
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+         <!-- Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="js/main.js"></script>
 </body>
 </html>
